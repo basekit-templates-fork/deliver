@@ -1,11 +1,11 @@
 {
-	"name":"Supply",
+	"name":"Deliver",
 	"thumbnail":"thumbnail.png",
 	"screenshot":"thumbnail.png",
-	"templateType":"ecommerce",
+	"templateType":"standard",
     "pageTypes": ["home"],
 	"tags": {
-	    "en": ["minimal", "clean", "photography", "modern", "website", "creative", "unique", "media", "sans-serif"]
+	    "en": [""]
 	},
 	"colorSwatches": {
         "Swatch 1": {
