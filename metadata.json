@@ -9,55 +9,55 @@
 	},
 	"colorSwatches": {
         "Swatch 1": {
-            "color1":"#f9f9f9",
-            "color2":"#e60000",
-            "color3":"#ffffff",
+            "color1":"#fcfdff",
+            "color2":"#008a6d",
+            "color3":"#edfcf9",
             "color4":"#333333",
             "color5":"#333333",
-            "color6":"#e60000",
-            "color7":"#f9f9f9"
+            "color6":"#00398f",
+            "color7":"#fcfdff"
         },
         "Swatch 2": {
-            "color1":"#e1e1e1",
-            "color2":"#00cf2c",
-            "color3":"#e6e6e6",
-            "color4":"#2e2e2e",
-            "color5":"#2e2e2e",
-            "color6":"#00cf2c",
-            "color7":"#e1e1e1"
+            "color1":"#ffffff",
+            "color2":"#758a00",
+            "color3":"#f9fced",
+            "color4":"#333333",
+            "color5":"#333333",
+            "color6":"#068f00",
+            "color7":"#fcfffc"
         },
         "Swatch 3": {
             "color1":"#fafafa",
-            "color2":"#efb400",
-            "color3":"#ffffff",
-            "color4":"#474747",
-            "color5":"#474747",
-            "color6":"#efb400",
-            "color7":"#fafafa"
+            "color2":"#8a0027",
+            "color3":"#fcedf1",
+            "color4":"#333333",
+            "color5":"#333333",
+            "color6":"#8f4800",
+            "color7":"#fffefc"
         },
         "Swatch 4": {
-            "color1":"#e8e8e8",
-            "color2":"#236db3",
-            "color3":"#eeeeee",
-            "color4":"#303030",
-            "color5":"#303030",
-            "color6":"#236db3",
-            "color7":"#e8e8e8"
+            "color1":"#ffffff",
+            "color2":"#2d527b",
+            "color3":"#f2f5f9",
+            "color4":"#434343",
+            "color5":"#434343",
+            "color6":"#482d7f",
+            "color7":"#fefdfe"
         },
         "Swatch 5": {
-            "color1":"#fafafa",
-            "color2":"#db226f",
-            "color3":"#ffffff",
-            "color4":"#454545",
-            "color5":"#454545",
-            "color6":"#db226f",
-            "color7":"#fafafa"
+            "color1":"#ffffff",
+            "color2":"#109835",
+            "color3":"#effcf3",
+            "color4":"#434343",
+            "color5":"#434343",
+            "color6":"#10929c",
+            "color7":"#fdfdfe"
         }
     },
     "fontSwatch": {
        "title": "Helvetica",
         "font1": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "34px",
             "font-weight": "400",
             "line-height": "44px",
@@ -65,7 +65,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "32px",
             "font-weight": "400",
             "line-height": "42px",
@@ -73,7 +73,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "24px",
             "font-weight": "400",
             "line-height": "34px",
@@ -81,7 +81,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "14px",
             "font-weight": "600",
             "line-height": "26px",
@@ -89,15 +89,15 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
-            "font-size": "13px",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "15px",
             "font-weight": "500",
-            "line-height": "23px",
+            "line-height": "25px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "14px",
             "font-weight": "400",
             "line-height": "26px",
@@ -108,7 +108,7 @@
             "background-color-hover": "@color-swatch4"
          },
         "font7": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "14px",
             "font-weight": "400",
             "line-height": "26px",
@@ -116,10 +116,10 @@
             "letter-spacing": "inherit",
             "color-hover": "@color-swatch2",
             "background-color": "@color-swatch3",
-            "background-color-hover": "@color-swatch3"
+            "background-color-hover": "lighten(@color-swatch3, 20%)"
         },
         "font8": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "36px",
             "font-weight": "400",
             "line-height": "46px",
@@ -127,7 +127,7 @@
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "22px",
             "font-weight": "400",
             "line-height": "32px",
@@ -135,7 +135,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "32px",
             "font-weight": "400",
             "line-height": "42px",
