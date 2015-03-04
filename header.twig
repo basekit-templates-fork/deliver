@@ -6,9 +6,6 @@
 		</div>
 		<nav class="template-nav span-12">
 			{{widget('extendednavigation', 'navigationheader', {"align":"left"})|raw}}
-			{% if page.request != 'checkout' %}
-				{{widget('ecombasket', 'ecombasket', {})|raw}}
-			{% endif %}
 		</nav>
 	</div>
 </header>
