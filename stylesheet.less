@@ -261,7 +261,7 @@ button.btn,
 	font-family:@font-swatch7-font-family;
 	font-weight: @font-swatch7-font-weight;
 	-webkit-font-smoothing: antialiased;
-	color:@font-swatch7-color;
+	color: @font-swatch7-color;
 	line-height:@font-swatch7-line-height;
 	letter-spacing: @font-swatch7-letter-spacing;
 	font-size: @font-swatch7-font-size;
@@ -275,6 +275,10 @@ button.btn,
 		color: @text-links-hover;
 		background-color: @font-swatch7-background-color-hover;
 	}
+}
+
+.expand .more, .expand .less {
+	color: @font-swatch7-color;
 }
 
 button:disabled,
@@ -1257,8 +1261,8 @@ input[type="search"]::-webkit-search-decoration {
 	}
 }
 
-.productlist-pagination-pages {
-	.clearfix;
+.productlist-pagination {
+	clear: both;
 }
 
 
