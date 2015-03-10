@@ -5,7 +5,7 @@
 	"templateType":"standard",
     "pageTypes": ["home"],
 	"tags": {
-	    "en": [""]
+		"en": ["trade", "construction", "build", "DIY"]
 	},
 	"colorSwatches": {
         "Swatch 1": {
